@@ -1,0 +1,45 @@
+# Site settings
+title: TecnoViper Blog
+description: >-
+  Blog sobre tecnologia, automação e inteligência artificial.
+  Tutoriais práticos, análises e estratégias para você dominar o mundo digital.
+baseurl: "/tecnoviper-blog"
+url: "https://marcosfoxcm.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO
+author:
+  name: Viper
+  email: marcosfox.projetos@gmail.com
+
+# Social
+social:
+  name: TecnoViper
+  links:
+    - https://github.com/marcosfoxcm
+
+# Google Analytics
+google_analytics: G-XXXXXXXXXX
+
+# Paginação
+paginate: 10
+paginate_path: "/page/:num/"
+
+# Exclusões
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - README.md
